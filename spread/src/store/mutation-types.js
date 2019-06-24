@@ -1,0 +1,2 @@
+export const SET_BREAK = 'SET_BREAK'
+export const SET_ISSHOWACTIVE = 'SET_ISSHOWACTIVE'

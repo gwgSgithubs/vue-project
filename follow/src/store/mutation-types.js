@@ -1,0 +1,6 @@
+export const SET_SHADOWINDEX = 'SET_SHADOWINDEX'
+export const SET_LONGIN = 'SET_LONGIN'
+export const SET_METHODNAME = 'SET_METHODNAME'
+export const SET_OPENID = 'SET_OPENID'
+export const SET_SOF = 'SET_SOF'
+export const SET_SEARCH = 'SET_SEARCH'

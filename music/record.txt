@@ -1,0 +1,3 @@
+babel-runtime: es6的语法进行转译
+fastclick: 解决移动端300毫秒延迟的问题
+babel-polyfill: 补丁的意思, 实际上就是对es6的api进行转译, 如,promise

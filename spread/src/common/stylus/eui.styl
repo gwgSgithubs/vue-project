@@ -1,0 +1,140 @@
+@import './theme.styl'
+
+// Tabs
+.el-tabs__item.is-active
+  color: $mainColor
+.el-tabs__active-bar
+  background-color: $mainColor
+.el-tabs__item:hover
+  color: $mainColor
+
+// Button
+.el-button--primary
+  background-color: $mainColor
+  border-color: $mainColor
+.el-button--primary:focus, .el-button--primary:hover
+  background-color: $mainColor
+  border-color: $mainColor
+.el-button--primary.is-disabled, .el-button--primary.is-disabled:active, .el-button--primary.is-disabled:focus, .el-button--primary.is-disabled:hover
+  background-color: $disabled
+  border-color: $disabled
+.el-time-panel__btn.confirm
+  color: $mainColor
+// Checkbox
+.el-checkbox__input.is-checked+.el-checkbox__label
+  color: $mainColor
+.el-checkbox__input.is-checked .el-checkbox__inner, .el-checkbox__input.is-indeterminate .el-checkbox__inner
+  background-color: $mainColor
+  border-color: $mainColor
+.el-checkbox__inner:hover
+  border-color: $mainColor
+.el-checkbox__input.is-focus .el-checkbox__inner
+  border-color: $mainColor
+.el-checkbox
+  color: $mainTxt
+
+// DATE
+.el-date-table td.today span, .el-button--text, .el-date-table td.available:hover, .el-date-picker__header-label.active, .el-date-picker__header-label:hover, .el-picker-panel__icon-btn:hover
+  color: $mainColor
+.el-button.is-plain:hover
+  color: $mainColor
+  border-color: $mainColor
+.el-date-table td.current:not(.disabled) span
+  background-color: $mainColor
+.el-input.is-active .el-input__inner, .el-input__inner:focus
+  border-color: $mainColor
+// card
+.box-card .title
+  font-size: 26px
+  color: $mainTxt
+.el-card__header
+  position: relative
+  border-bottom: none
+  .btn-txt
+    position: absolute
+    right: 20px
+    bottom: 18px
+    font-size: 16px
+    cursor: pointer
+    color: $subTxt
+    &:hover
+      color: $mainColor
+.el-card__body
+  padding-top: 0
+
+// TABLE
+.el-table th>.cell
+  white-space: nowrap
+.el-table th.is-leaf
+  background-color: #E8E8E8
+
+// RADIO
+.el-radio__input.is-checked .el-radio__inner
+  border-color: $mainColor
+  background-color: $mainColor
+.el-radio__input.is-checked+.el-radio__label
+  color: $mainColor
+
+// INPUT
+.el-select .el-input.is-focus .el-input__inner, .el-range-editor.is-active, .el-range-editor.is-active:hover, .el-select .el-input__inner:focus
+  border-color: $mainColor
+.el-select-dropdown__item.selected
+  color:  $mainColor
+.el-input__inner
+  color: $inputTxt
+
+.input-h28
+  .el-input__inner
+    height: 28px
+    line-height: 28px
+    padding-right: 20px
+  .el-input__icon
+    line-height: 28px
+    width: 20px
+  .el-date-editor .el-range-separator, .el-date-editor .el-range__icon
+    line-height: 20px
+  .el-input__suffix
+    right: 2px
+
+.input-h32
+  .el-input__inner
+    height: 32px
+    line-height: 32px
+    padding-right: 20px
+  .el-input__icon
+    line-height: 32px
+    width: 20px
+  .el-date-editor .el-range-separator, .el-date-editor .el-range__icon
+    line-height: 24px
+  .el-input__suffix
+    right: 2px
+// SELECTE
+.el-select-dropdown.is-multiple .el-select-dropdown__item.selected::after
+  content: "\e6da"
+.el-select-dropdown.is-multiple .el-select-dropdown__item.selected
+  color: $mainColor
+.el-select .el-select__tags>span
+  display: flex
+.el-select__tags
+  overflow: hidden
+// UPLOAD
+.avatar-uploader .el-upload
+  border: 1px dashed #d9d9d9
+  border-radius: 6px
+  cursor: pointer
+  position: relative
+  overflow: hidden
+.avatar-uploader .el-upload:hover
+  border-color: #409EFF
+.avatar-uploader-icon
+  width: 263px
+  height: 70px
+  font-size: 28px
+  color: #8c939d
+  line-height: 70px
+  text-align: center
+.avatar
+  height: 70px
+  display: block
+.avatar-uploader .el-upload:hover
+  border-color: $mainColor

@@ -1,0 +1,332 @@
+@import './theme.styl'
+// WIDTH & HEIGHT
+.w60
+  width: 60px
+.w70
+  width: 70px
+.w80
+  width: 80px
+.w120
+  width: 120px
+.w100
+  width: 100px
+.w300
+  width: 300px
+.w520
+  width: 520px
+// FLEX
+.f100
+  flex: 0 0 100px
+.f120
+  flex: 0 0 120px
+.f160
+  flex: 0 0 160px
+.f180
+  flex: 0 0 180px
+.f1
+  flex: 1
+.js-end
+  justify-content: flex-end !important
+.alisf-start
+  align-self: flex-start
+
+// BOX
+.mb20
+  margin-bottom: 20px !important
+.ml10
+  margin-left: 10px !important
+.mr5
+  margin-right: 5px !important
+.p5
+  padding: 5px !important
+.pb0
+  padding-bottom: 0 !important
+.pr10
+  padding-right: 10px !important
+.pt10
+  padding-top: 10px !important
+.pt12
+  padding-top: 12px !important
+.block
+  display: block !important
+.res-box
+  box-sizing: border-box
+.bak-white
+  background-color: #fff
+.color-red
+  color: $danger
+// 搜索
+.search-box
+  display: flex
+  align-items: center
+  .ipt-box
+    display: flex
+    align-items: center
+    .label
+      flex: 0 0 100px
+      padding-right: 10px
+      border-box: box-sizing
+      text-align: right
+      font-size: 14px
+      color: #333
+    &.flex1
+      flex: 1
+  .border-no-r
+    .el-input__inner
+      border-top-right-radius: 0
+      border-bottom-right-radius: 0
+  .border-no-l
+    .el-input__inner
+      border-top-left-radius: 0
+      border-bottom-left-radius: 0
+      border-left: none
+// 右对齐
+.txt-right
+  text-align: right !important
+// 左对齐
+.txt-left
+  text-align: left !important
+// 居中
+.txt-center
+  text-align: center !important
+// 不换行
+.txt-nowrap
+  white-space: nowrap
+// 分页
+.paginater-box
+  padding-top: 10px
+
+// BUTTON
+.pop-btn-box
+  padding: 20px
+  text-align: center
+.r-button
+  min-width: 102px
+  height: 32px
+  line-height: 32px
+  display: inline-block
+  border-radius: 2px
+  overflow: hidden
+  font-size: 14px
+  outline: none
+  border: none
+  color: #fff
+  margin: 0 22px
+  cursor: pointer
+  text-align: center
+  padding: 0 10px
+
+  &.table-btn-op
+    width: auto
+    min-width: 48px
+    height: 22px
+    line-height: 22px
+    display: flex
+    align-items: center
+    background-color: rgba(0, 0, 0, 0)
+    border: 1px solid #DCDCDC
+    border-radius: 4px
+    font-size: 12px
+    margin: 0 10px 0 0
+  &.table-btn-warn
+    color: $danger
+  &.table-btn-info
+    color: $subTxt
+  &.table-btn-primary
+    color: $light
+  &.table-btn-tab
+    width: auto
+    min-width: 48px
+    height: 22px
+    line-height: 22px
+    background-color: #E9F1FE
+    color: $light
+    font-size: 14px
+    margin: 0 5px 0 0
+  &.mini
+    width: auto
+    min-width: 60px
+    height: 24px
+    line-height: 24px
+    padding: 0 10px
+  &.mini-m
+    width: auto
+    min-width: 68px
+    height: 28px
+    line-height: 28px
+    padding: 0 10px
+  &.small
+    width: auto
+    min-width: 80px
+    height: 30px
+    line-height: 30px
+    padding: 0 10px
+    margin: 0 0 0 12px
+
+  &.brif
+    border: 1px solid $mainColor
+    color: $mainColor
+    font-size: 16px
+    background-color: rgba(0, 0, 0, 0)
+  &:hover
+    opacity: 0.7
+  &.warn
+    background-color: $danger
+  &.sub
+    background-color: $light
+  &.primary
+    background-color: $mainColor
+    color: #fff
+  &.info
+    background-color: #F7F6F6
+    color: $disabledTxt
+  &.disabled
+    cursor: not-allowed
+    &:hover
+      opacity: 1
+
+// CARD
+.act-card
+  .tit-box
+    display: flex
+    align-items: center
+    justify-content: space-between
+    margin-bottom: 15px
+    font-size: 14px
+    .tit
+      position: relative
+      font-size: 20px
+      font-weight: bolder
+      padding-bottom: 5px
+      &:after
+        content: ''
+        width: 100%
+        height: 2px
+        position: absolute
+        left: 0
+        bottom: 0
+        background-color: $mainColor
+    .tip
+      span
+        color: $danger
+  .low-box
+    display: flex
+    justify-content: space-between
+    align-items: center
+    padding-bottom: 12px
+    .se-box
+      display: flex
+      align-items: center
+      font-size: 16px
+      .lab
+        padding-right: 12px
+        text-align: right
+      .start
+        color: $danger
+      .txt-box
+        display: flex
+        align-items: center
+
+// TAB
+.tab-box
+  width: 100%
+  display: flex
+  align-items: flex-start
+  justify-content: space-between
+  border-bottom: 1px solid $mainColor
+  margin-bottom: 25px
+  padding-top: 20px
+  .el-input-group__append
+    padding: 0 9px
+    background-color: $mainColor
+    color: #fff
+    border-color: $mainColor
+  .el-input-group>.el-input__inner
+    border-color: $mainColor
+    border-bottom-left-radius: 0
+    border-top-left-radius: 0
+  .tab-ipt .el-input__inner
+    border-color: $mainColor
+    border-bottom-right-radius: 0
+    border-top-right-radius: 0
+    border-right: none
+  ul
+    display: flex
+    align-items: center
+  li
+    width: 98px
+    height: 39px
+    position: relative
+    line-height: 39px
+    text-align: center
+    font-size: 14px
+    color: $subTxt
+    border-top-left-radius: 4px
+    border-top-right-radius: 4px
+    overflow: hidden
+    border: 1px solid rgba(48, 204, 193, 0.7)
+    border-bottom: none
+    cursor: pointer
+    &.active
+      font-size: 16px
+      font-weight: bold
+      color: #1A8D85
+      background-color: rgba(48, 204, 193, 0.7)
+    span
+      min-width: 14px
+      height: 14px
+      position: absolute
+      right: 5px
+      top: 2px
+      color: #fff
+      font-size: 12px
+      display: inline-block
+      border-radius: 14px
+      overflow: hidden
+      text-align: center
+      line-height: 14px
+      background-color: $danger
+  button
+    margin: 0 0 0 10px
+// SWITCH
+.switch
+  span
+    width: 40px
+    height: 20px
+    display: block
+    border-radius: 20px
+    overflow: hidden
+    position: relative
+    cursor: pointer
+    margin: auto
+    &:after
+      content: ''
+      width: 16px
+      height: 16px
+      position: absolute
+      top: 2px
+      border-radius: 16px
+      background-color: #fff
+      overflow: hidden
+    &:before
+      content: ''
+      position: absolute
+      font-size: 12px
+    &.active
+      background-color: $light
+      &:after
+        right: 2px
+      &:before
+        content: '是'
+        left: 5px
+        color: #fff
+    &.inactive
+      background-color: $disabled
+      &:after
+        left: 2px
+      &:before
+        content: '否'
+        right: 5px
+        color: $disabledTxt
+.cursor
+  cursor: pointer

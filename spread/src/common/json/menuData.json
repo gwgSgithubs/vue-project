@@ -1,0 +1,263 @@
+{
+    "msg": "成功",
+    "code": 200,
+    "data": {
+        "leftnav": [
+            {
+                "children": [],
+                "id": 5,
+                "href": "/home",
+                "title": "系统首页"
+            },
+            {
+                "children": [
+                    {
+                        "children": [],
+                        "id": 11,
+                        "href": "/acList",
+                        "title": "活动列表"
+                    },
+                    {
+                        "children": [],
+                        "id": 12,
+                        "href": "/acModel",
+                        "title": "活动模板"
+                    },
+                    {
+                        "children": [],
+                        "id": 13,
+                        "href": "/localTag",
+                        "title": "本地标签"
+                    }
+                ],
+                "id": 1,
+                "href": "",
+                "title": "活动管理"
+            },
+            {
+                "children": [
+                    {
+                        "children": [],
+                        "id": 21,
+                        "href": "page/videoManage/index.html",
+                        "title": "视频管理"
+                    },
+                    {
+                        "children": [],
+                        "id": 22,
+                        "href": "page/videoManage/systemUpload.html",
+                        "title": "视频上传"
+                    },
+                    {
+                        "children": [],
+                        "id": 23,
+                        "href": "page/videoManage/download.html",
+                        "title": "视频下载"
+                    }
+                ],
+                "id": 2,
+                "href": "",
+                "title": "视频管理"
+            },
+            {
+                "children": [
+                    {
+                        "children": [],
+                        "id": 31,
+                        "href": "page/follow/index.html",
+                        "title": "管理跟进"
+                    },
+                    {
+                        "children": [],
+                        "id": 32,
+                        "href": "page/follow/fyFriend/index.html",
+                        "title": "福音朋友"
+                    }
+                ],
+                "id": 3,
+                "href": "",
+                "title": "跟进管理"
+            },
+            {
+                "children": [
+                    {
+                        "children": [],
+                        "id": 41,
+                        "href": "page/server/index.html",
+                        "title": "服务设置"
+                    },
+                    {
+                        "children": [],
+                        "id": 42,
+                        "href": "page/imgManage/index.html",
+                        "title": "图片管理"
+                    },
+                    {
+                        "children": [],
+                        "id": 43,
+                        "href": "page/pay/index.html",
+                        "title": "支付配置"
+                    },
+                    {
+                        "children": [],
+                        "id": 44,
+                        "href": "page/pay/other.html",
+                        "title": "其他配置"
+                    }
+                ],
+                "id": 4,
+                "href": "",
+                "title": "服务设置"
+            }
+        ],
+        "topnav": [
+            {
+                "children": [
+                    {
+                        "children": [],
+                        "icon": "icon-yonghuguanli",
+                        "id": 61,
+                        "href": "/page/system/user/index.html",
+                        "title": "用户管理"
+                    },
+                    {
+                        "children": [],
+                        "icon": "icon-zhiweiquanxian",
+                        "id": 62,
+                        "href": "/page/system/auth/index.html",
+                        "title": "职位权限"
+                    },
+                    {
+                        "children": [],
+                        "icon": "icon-quanxian",
+                        "id": 63,
+                        "href": "javascript:;",
+                        "title": "权限管理"
+                    },
+                    {
+                        "children": [],
+                        "icon": "icon-neibu",
+                        "id": 64,
+                        "href": "/page/reserve.html",
+                        "title": "内部审核"
+                    },
+                    {
+                        "children": [],
+                        "icon": "icon-canshu",
+                        "id": 65,
+                        "href": "/page/reserve.html",
+                        "title": "参数设置"
+                    },
+                    {
+                        "children": [],
+                        "icon": "icon-tubiao",
+                        "id": 66,
+                        "href": "/page/noShow.html",
+                        "title": "图片统计"
+                    }
+                ],
+                "id": 6,
+                "href": "page/system/index.html",
+                "title": "系统管理"
+            },
+            {
+                "children": [
+                    {
+                        "children": [],
+                        "icon": "icon-wodexitongzhanghu",
+                        "id": 71,
+                        "href": "/page/finance/systemFinance/index.html",
+                        "title": "系统账务"
+                    },
+                    {
+                        "children": [],
+                        "icon": "icon-zhanghuliushui",
+                        "id": 72,
+                        "href": "/page/finance/userFinance/index.html",
+                        "title": "用户账务流水"
+                    },
+                    {
+                        "children": [],
+                        "icon": "",
+                        "id": 73,
+                        "href": "",
+                        "title": "报表统计"
+                    },
+                    {
+                        "children": [],
+                        "icon": "",
+                        "id": 74,
+                        "href": "",
+                        "title": "blank"
+                    }
+                ],
+                "id": 7,
+                "href": "page/finance/index.html",
+                "title": "账务管理"
+            },
+            {
+                "children": [
+                    {
+                        "children": [],
+                        "icon": " icon-wodexitongzhanghu",
+                        "id": 81,
+                        "href": "/page/announcement/publish/index.html",
+                        "title": "发布公告"
+                    },
+                    {
+                        "children": [],
+                        "icon": "icon-zhanghuliushui",
+                        "id": 82,
+                        "href": "/page/noShow.html",
+                        "title": "公告统计"
+                    }
+                ],
+                "id": 8,
+                "href": "page/announcement/index.html",
+                "title": "公告管理"
+            },
+            {
+                "children": [
+                    {
+                        "children": [],
+                        "icon": "icon-shipin",
+                        "id": 91,
+                        "href": "/page/aduitComplaint/video/index.html",
+                        "title": "视频审批"
+                    },
+                    {
+                        "children": [],
+                        "icon": " icon-tixian",
+                        "id": 92,
+                        "href": "/page/aduitComplaint/putforword/index.html",
+                        "title": "提现审批"
+                    },
+                    {
+                        "children": [],
+                        "icon": "",
+                        "id": 93,
+                        "href": "",
+                        "title": "投诉客服"
+                    },
+                    {
+                        "children": [],
+                        "icon": "",
+                        "id": 94,
+                        "href": "",
+                        "title": "审批统计"
+                    },
+                    {
+                        "children": [],
+                        "icon": "",
+                        "id": 95,
+                        "href": "",
+                        "title": "意见统计"
+                    }
+                ],
+                "id": 9,
+                "href": "page/aduitComplaint/index.html",
+                "title": "审核投诉"
+            }
+        ]
+    }
+}

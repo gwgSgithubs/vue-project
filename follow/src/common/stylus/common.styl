@@ -1,0 +1,200 @@
+.pop
+  width: 100%
+  height: 100%
+  position: fixed
+  left: 0
+  top: 0
+  bottom: 0
+  right: 0
+  z-index: 3
+  .mask
+    width: 100%
+    height: 100%
+    position: absolute
+    left: 0
+    top: 0
+    right: 0
+    bottom: 0
+    background-color: rgba(0, 0, 0, 0.4)
+  .pop-main
+    position: absolute
+    left: 50%
+    top: 50%
+    transform: translate3d(-50%, -50%, 0)
+    .close
+      margin-bottom: 5px
+      text-align: right
+      &>div
+        width: 32px
+        height: 32px
+        display: inline-block
+        overflow: hidden
+        border-radius: 32px
+        border: 1px solid #fff
+        background-color: rgba(255, 255, 255, 0.4)
+        text-align: center
+        line-height: 32px
+        color: #fff
+        &:active
+          opacity: 0.4
+    .pop-title
+      width: 100%
+      height: 60px
+      padding: 17px
+      background-color: #2DA8FA
+      text-align: center
+      color: #fff
+      font-size: 18px
+      font-weight: bold
+    .btn-box
+      text-overflow: ellipsis
+      overflow: hidden
+      white-space: nowrap
+      .btn
+        width: 118px
+        height: 38px
+        border-radius: 20px
+        overflow: hidden
+        font-size: 16px
+        &.cancel
+          border: 1px solid #999
+          color: $color-text
+          background-color: #fff
+          margin-right: 5px
+        &.sure
+          border: 1px solid #2DA8FA
+          background-color: #2DA8FA
+          color: #fff
+.pop-content
+  width: 300px
+  height: 315px
+  border-radius: 10px
+  background-color: #fff
+  overflow: hidden
+.anim-enter-active, .anim-leave-active
+  transition: opacity .5s;
+.anim-enter, .anim-leave-active
+  opacity: 0;
+.state
+  width: 100%
+  position: absolute
+  z-index: -1
+  text-align: center
+  background: rgba(0, 0, 0, 0.4)
+  color: #fff
+  line-height: 40px
+  transform: translate3d(0, -50px, 0)
+  display: none
+  &.load
+    width: 100%
+    position: absolute
+    bottom: 0
+    left: 0
+    transform: translate3d(0, 50px, 0)
+.empty
+  text-align: center
+  span
+    font-size: 15px
+    color: #999
+  img
+    width: 120px
+    margin: auto
+    padding-top: 20px
+    padding-bottom: 20px
+.card
+  position: relative
+  margin-bottom: 10px
+  .icon-tip
+    width: 40px
+    height: 30px
+    position: absolute
+    left: -9px
+    top: 3px
+    img
+      width: 100%
+  .card-main
+    padding: 14px 8px 14px 19px
+    display: flex
+    border-radius: 5px
+    overflow: hidden
+    box-shadow: 0 0 20px #ddd
+    background-color: #fff
+    .oparation
+      display: flex
+      align-items: center
+      white-space: nowrap
+      line-height: 1
+      span
+        margin-right: 5px
+        font-size: 13px
+      .warn
+        color: #FF103D
+      .disa
+        color: #999
+      .defa
+        color: #2271C1
+    .card-detail
+      display: flex
+      justify-content: space-between
+      flex: 1
+      align-items: center
+      padding-left: 10px
+      .title
+        color: #333
+        font-size: 16px
+        font-weight: bolder
+        margin-bottom: 5px
+        white-space: nowrap
+      .sex
+        color: #999
+        font-size: 12px
+        font-weight: normal
+      .remark
+        color: #666
+        font-size: 13px
+        no-wrap()
+      .detail
+        color: #ccc
+        font-size: 15px
+      .icon-shoucang1
+        font-size: 22px
+        padding: 5px
+        margin-right: 10px
+        color: #999
+      .favor
+        color: #FF9900
+      .push-su
+        color: #FF103D
+      .push-no
+        color: #2DA8FA
+      .push-ca
+        color: #FF7E10
+  .img-box
+    width: 50px
+    height: 50px
+    flex: 0 0 50px
+    border-radius: 50px
+    overflow: hidden
+    box-shadow: 0 0 10px #E8E7E7
+    img
+      width: 100%
+      height: 100%
+      background-color: #fff
+    i
+      width: 18px
+      height: 18px
+      position: absolute
+      top: 48px
+      left: 53px
+      color: red
+      background: #fff
+      display: block
+      border-radius: 18px
+      box-shadow: 0 0 3px #999
+      text-align: center
+      line-height: 18px
+      font-size: 12px
+    .icon-nande
+      color: #FA7268
+    .icon-nvde-
+      color: #689FFA

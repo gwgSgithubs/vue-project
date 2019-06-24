@@ -1,0 +1,70 @@
+# v_fy
+***
+### 外层框
+*  
+	> wrap/index.vue
+### 登录
+*  
+    > login/index.vue
+## 左侧菜单
+### 系统首页
+*  
+	> home/index.vue
+### 活动管理
+* 活动列表
+    > acManagement/acList/index.vue  
+* 活动模板
+	> acManagement/acModel/index.vue
+* 本地标签
+	> acManagement/localTag/index.vue
+### 视频管理
+* 视频管理
+	> vdManagement/management/index.vue
+* 视频上传
+	> vdManagement/upload/index.vue
+* 视频下载
+	> vdManagement/download/index.vue
+### 跟进管理
+* 管理跟进
+	> flManagement/management/index.vue
+* 福音朋友
+	> flManagement/gpFriend/index.vue
+### 服务设置
+* 服务设置
+	> scSetting/serviceSetting/index.vue
+* 图片管理
+	> scSetting/ptManagement/index.vue
+* 支付配置
+	> scSetting/paySetting/index.vue
+* 其他配置
+	> scSetting/otSetting/index.vue
+
+## 顶部菜单
+### 系统管理
+* 用户管理
+	> syManagement/user/index.vue
+* 职位权限
+	> syManagement/psAuthority/index.vue
+* 权限管理
+	> syManagement/authority/index.vue
+* 内部审核
+	> syManagement/internalAudit/index.vue
+* 参数设置
+	> syManagement/paraSetting/index.vue
+* 图片统计
+	> syManagement/ptStatistics/index.vue
+### 财务管理
+* 系统财务
+	> fnManagement/syFinance/index.vue
+* 用户财务流水
+	> fnManagement/userFinanceDetail/index.vue
+### 公告管理
+* 发布公告
+	> ancManagement/release/index.vue
+* 公告统计
+	> ancManagement/statistics/index.vue
+### 审核投诉
+* 视频审核
+	> auditComplaints/video/index.vue
+* 提现审核
+	> auditComplaints/cashed/index.vue
